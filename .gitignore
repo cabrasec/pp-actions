@@ -1,0 +1,51 @@
+# === TERRAFORM ===
+
+# Diretórios locais do Terraform
+.terraform/
+.terraform/*
+
+# Arquivos de estado
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate
+*.tfstate.backup
+
+# Arquivo de bloqueio gerado automaticamente
+.terraform.lock.hcl
+
+# Logs do Terraform
+crash.log
+crash.*.log
+
+# Variáveis sensíveis
+*.tfvars
+*.tfvars.json
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plans do Terraform
+terraform.plan
+
+# === SISTEMA / EDITOR ===
+
+# VSCode settings
+.vscode/
+.history/
+
+# Arquivos do Windows
+Thumbs.db
+Desktop.ini
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.log
+
+# === GIT ===
+# Ignorar arquivos de merge temporários
+*.orig
